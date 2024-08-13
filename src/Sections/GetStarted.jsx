@@ -2,7 +2,7 @@ import image from "../Assets/card.jpg";
 
 function GetStarted() {
     return (
-        <div className="max-w-5xl p-5 flex mx-auto justify-between items-center">
+        <div className="max-w-5xl p-5 flex mx-auto justify-between items-center my-10">
 
             <div className="flex flex-col justify-center w-1/2">
             <span className="text-6xl font-bold">Your Job Search <span className="text-red-600 pr-3">Starts</span>Here</span>
@@ -10,7 +10,7 @@ function GetStarted() {
 
             <div className="mt-8 space-x-5">
             <button className="bg-red-600 text-white hover:scale-90 font-bold w-32 p-2 text-md rounded-xl">Get Started</button>
-            <button className="text-red-600 bg-white hover:scale-110 font-bold w-32 p-2 text-md rounded-xl shadow-[10px_10px_10px_rgba(0,0,0,0.3)]">Learn More</button>
+            <button className="text-red-600 bg-white hover:scale-110 font-bold w-32 p-2 text-md rounded-xl shadow-[1px_10px_10px_5px_rgba(0,0,0,0.3)]">Learn More</button>
             </div>
             </div>
 
