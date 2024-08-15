@@ -2,7 +2,7 @@ import image from "../Assets/card.jpg";
 
 function GetStarted() {
     return (
-        <div className="max-w-5xl p-5 flex mx-auto justify-between items-center my-10">
+        <div className="max-w-6xl px-10 flex mx-auto justify-between items-center">
 
             <div className="flex flex-col justify-center w-1/2">
             <span className="text-6xl font-bold">Your Job Search <span className="text-red-600 pr-3">Starts</span>Here</span>
@@ -16,7 +16,7 @@ function GetStarted() {
 
 
             <div className="w-1/2 ml-7 ">
-                <img src={image} alt="job-search-picture" className="w-fit rounded-2xl" />
+                <img src={image} alt="job-search-picture" className="w-fit rounded-2xl h-96" />
             </div>
         </div>
     )

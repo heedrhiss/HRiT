@@ -2,7 +2,7 @@ import logo from '../Assets/Logo-HRiT-Official-Transparent.png'
 
 function Nav() {
     return (
-        <nav className="max-w-6xl mx-auto pt-3 flex w-full justify-between items-center p-5">
+        <nav className="max-w-6xl mx-auto pt-2 flex w-full justify-between items-center px-5">
             <div className="">
             <a href='#' className=''>
                 <img alt="HRiT Logo" src={logo} className='h-30 w-52' />
