@@ -1,7 +1,7 @@
 import Footer from "../Sections/Footer"
 import Nav from "../Sections/Nav"
 
-function Services() {
+function Connect() {
     return (
         <div className="flex flex-col h-screen">
             <Nav/>
@@ -13,4 +13,4 @@ function Services() {
     )
 }
 
-export default Services
+export default Connect

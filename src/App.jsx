@@ -1,14 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 import Services from "./Pages/Services";
-// import Brief from "./Sections/Brief";
-// import Footer from "./Sections/Footer";
-// import GetStarted from "./Sections/GetStarted";
-// import Nav from "./Sections/Nav";
-// import Ribbon from "./Sections/Ribbon";
-// import RightGoal from "./Sections/RightGoal";
-// import Services from "./Sections/Services";
-// import ServicesBlog from "./Sections/ServicesBlog";
+import PageNotFound from "./Pages/PageNotFound";
+import Testimonials from "./Pages/Testimonials";
+import Connect from "./Pages/Connect";
+import Resources from "./Pages/Resources";
+
 
 function App() {
   return (
@@ -16,7 +13,11 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route index element={ <Homepage/>}/>
+      <Route path="*" element={<PageNotFound/>}/>
       <Route path="/Services" element={<Services/>}/>
+      <Route path="/Testimonials" element={<Testimonials/>}/>
+      <Route path="/Resources" element={<Resources/>}/>
+      <Route path="/Connect" element={<Connect/>}/>
     </Routes>
     </BrowserRouter>
     </div>
