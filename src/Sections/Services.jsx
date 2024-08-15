@@ -24,8 +24,7 @@ function Services() {
         <div className="flex flex-col justify-center items-center w-[265px] h-[330px] p-5 space-y-3 shadow-[1px_10px_10px_3px_rgba(0,0,0,0.3)]">
         <img src={cover} alt="Service picture" className='w-20' />
         <div className='text-[22px] font-bold text-center'>Cover Letter Preparation</div>
-        <div className='text-[19.5px] text-center text-stone-500'>Write cover letters that
-get noticed.</div>
+        <div className='text-[19.5px] text-center text-stone-500'>Write cover letters that get noticed.</div>
         <button className="bg-red-600 text-white hover:scale-90 font-bold w-32 p-2 text-md rounded-xl">Learn More</button>
         </div>
         <div className="flex flex-col justify-center items-center w-[265px] h-[330px] p-5 space-y-3 shadow-[1px_10px_10px_3px_rgba(0,0,0,0.3)]">
