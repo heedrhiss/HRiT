@@ -1,13 +1,14 @@
 import Footer from "../Sections/Footer"
+import GetStartedServices from "../Sections/GetStartedServices"
 import Nav from "../Sections/Nav"
+import ServiceServices from "../Sections/ServiceServices"
 
 function Services() {
     return (
         <div className="flex flex-col h-screen">
             <Nav/>
-            <div className="flex-1 items-center justify-center text-2xl text-center h-fit">
-                <p></p>
-            </div>
+            <GetStartedServices/>
+            <ServiceServices/>
             <Footer/>
         </div>
     )

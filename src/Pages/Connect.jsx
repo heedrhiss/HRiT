@@ -5,7 +5,7 @@ function Connect() {
     return (
         <div className="flex flex-col h-screen">
             <Nav/>
-            <div className="flex-1 items-center justify-center text-2xl text-center h-fit">
+            <div className="flex-1 items-center justify-center text-2xl text-center">
                 <p></p>
             </div>
             <Footer/>
