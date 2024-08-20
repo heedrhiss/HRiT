@@ -15,8 +15,6 @@ function Featured() {
                 <div className="flex items-center shadow-[1px_10px_10px_5px_rgba(0,0,0,0.3)] w-64 py-10 px-7">
                 <div className="text-[1.55rem] font-bold text-center  justify-center hover:text-red-600">Links to detailed resource pages</div>
                 </div>
-                
-
             </div>
         </div>
     )
