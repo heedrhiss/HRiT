@@ -6,7 +6,7 @@ import job from '../Assets/job-discovery-icon.png'
 function ServiceServices() {
     return (
         <div className="max-w-6xl mx-auto my-20 flex flex-col items-center justify-between">
-            <div className='flex justify-between items-center'>
+            <div className='flex justify-between items-center space-x-32 my-12'>
                 <div className="flex justify-center items-center w-full max-w-[400px] h-[130px] p-5 space-x-5 shadow-[10px_10px_10px_1px_rgba(0,0,0,0.3)]">
                     <div className='w-44 -ml-20 rounded-full shadow-[1px_10px_15px_1px_rgba(0,181,204,1)]'>
                         <img src={resume} alt="Service picture" className='w-full' />
@@ -30,7 +30,7 @@ function ServiceServices() {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-between items-center'>
+            <div className='flex justify-between items-center space-x-32'>
                 <div className="flex justify-center items-center w-full max-w-[400px] h-[130px] p-5 space-x-5 shadow-[10px_10px_10px_1px_rgba(0,0,0,0.3)]">
                     <div className='w-44 -ml-20 rounded-full shadow-[1px_10px_15px_1px_rgba(0,181,204,1)]'>
                         <img src={cover} alt="Service picture" className='w-full' />
