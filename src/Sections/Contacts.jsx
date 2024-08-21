@@ -1,6 +1,6 @@
 import image from '../Assets/call.jpg'
 import ig from '../Assets/Instagram-Image.png'
-import fb from '../Assets/facebook.png'
+import fb from '../Assets/fb.png';
 import linkedin from '../Assets/LinkedIn-Image.png';
 
 function Contacts() {
