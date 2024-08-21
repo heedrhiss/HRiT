@@ -1,5 +1,3 @@
-import bg from '../Assets/resourcebg.jpg';
-
 function Resource() {
     return (
         <div className="bgresource w-[100vw] h-[460px] flex items-center justify-center text-black">

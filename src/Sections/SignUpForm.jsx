@@ -1,5 +1,7 @@
 function SignUpForm() {
     return (
+        <>
+        <div className="text-5xl font-bold text-center mt-20">Stay <span className="text-red-600">Updated</span></div>
         <div className="max-w-6xl mx-auto flex justify-between items-center">
         <div className="p-16 text-3xl font-bold w-1/2">
         Sign up for our newsletter to receive updates on new resources
@@ -17,6 +19,7 @@ function SignUpForm() {
             <button className="bg-red-600 text-white hover:scale-95 font-semibold w-20 p-2 text-sm rounded-sm" name="submit">Submit</button>
         </form>
         </div>
+        </>
     )
 }
 

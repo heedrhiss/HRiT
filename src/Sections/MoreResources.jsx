@@ -14,7 +14,6 @@ function MoreResources() {
         <p className="text-3xl font-bold my-5">Titles</p>
         <p className="text-[18px] text-stone-500">Provide a brief description and link to each resources Provide a brief description and link to each resources Provide a brief description and link to each resources</p>
         </div>
-        <div className="text-5xl font-bold text-center mt-20">Stay <span className="text-red-600">Updated</span></div>
         </div>
     )
 }

@@ -5,3 +5,16 @@
 .bgresource{
     background: url("/src/Assets/resourcebg.jpg");
 }
+
+.bgcontact{
+    background: url("/src/Assets/contact2.jpg") no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+
+@media (max-width: 600px) {
+    .bgcontact{
+        background: url("/src/Assets/contact.jpg");
+    }
+  }
