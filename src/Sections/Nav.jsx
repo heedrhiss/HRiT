@@ -11,9 +11,9 @@ function Nav() {
    
             </div>
             <div>
-            <div className='flex items-start space-x-10 text-lg font-semibold justify-start text-slate-600'>
+            <div className='flex items-start space-x-12 text-lg font-semibold justify-start text-slate-600'>
                 <NavLink to='/Services' className='hover:text-red-500'>Services</NavLink>
-                <NavLink to='/Testimonials' className='hover:text-red-500'>Testimonials</NavLink>
+                {/* <NavLink to='/Testimonials' className='hover:text-red-500'>Testimonials</NavLink> */}
                 <NavLink to='/Resources' className='hover:text-red-500'>Resources</NavLink>
                 <NavLink to='/Connect' className='hover:text-red-500'>Connect</NavLink>
             </div>
